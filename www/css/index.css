@@ -1,0 +1,219 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+.header {
+background-color: #ffffff;
+height: auto;
+padding-top: 10px;
+width: 100%;
+}
+
+.back-button {
+color: #606060;
+font-family: Arial;
+padding: 10px;
+font-size: 15px;
+}
+
+#content {
+-webkit-transition: .3s linear;
+}
+
+.menu-button {
+position:absolute;
+top: 30px;
+right: 10px;
+padding: 10px;
+z-index: 4;
+background-image: url('../images/menu.png');
+background-position:center;
+background-size: cover;
+width: 15px;
+height: 15px;
+}
+
+.menu-box {
+width: 100%;
+height: auto;
+overflow: hidden;
+margin-top: 20px;
+}
+
+.search-input {
+width: 70%;
+border-radius: 0;
+border: none;
+-webkit-appearance:none;
+padding: 20px 0 20px 0;
+font-family: "changeling-neo-stencil",sans-serif;
+font-size: 15px;
+border-top: 1px solid orange;
+border-bottom: 1px solid orange;
+float:left;
+text-align:center;
+margin: 0;
+
+}
+
+.search-button {
+	width: 30%;
+	padding: 20px 0 20px 0;
+	font-family: "changeling-neo-stencil",sans-serif;
+	font-size: 15px;
+	background-color: #666462;
+	text-align: center;
+	color: white;
+	float: left;
+	border-top: 1px solid #817F7C;
+	border-bottom: 1px solid orange;
+	border-right: none;
+	border-left: none;
+}
+
+/** BELOW HERE ARE THE STYLINGS FOR THE MAIN PAGE **/
+
+.featured {
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 7px;
+background-color:#000000;
+}
+
+.main-box {
+position: relative;
+top: 0px;
+left: 0px;
+float:left;
+overflow:hidden;
+
+
+}
+
+.main-img {
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 1;
+/* Below can be changed */
+width: 200%;
+height: 200%;
+margin: -40% 0 0 -40%;
+-webkit-filter: blur(5px);
+}
+
+.main-color {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	/* Below can be changed */
+	opacity: .5;
+	
+}
+
+/* Set the color for each square on the home page as below */
+.main-color.youtube {
+background-color: #401726;
+opacity: .9;
+border: 1px solid white;
+
+	
+}
+.main-color.hulu{
+background-color: #722441;	
+opacity: .9;
+border: 1px solid white;
+	}
+	.main-color.camideo{
+background-color: #592538;	
+opacity: .9;
+border: 1px solid white;
+	}
+	
+	.main-color.vimeo{
+background-color: #B46F88;	
+opacity: .9;
+border: 1px solid white;
+	}
+	
+		.main-color.aol{
+background-color: #D84E2F;	
+opacity: .9;
+border: 1px solid white;
+	}
+	
+	.main-color.dailymotion{
+background-color: #3D91A5;	
+opacity: .7;
+border: 1px solid white;
+	}	
+.main-text {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	/* Below can be changed */
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	font-family: "changeling-neo-stencil",sans-serif;
+	color: #FFFFFF;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	border-color: #959595;
+}
+
+/** BELOW HERE IS FOR THE VIDEO LIST PAGE **/
+
+.video-box {
+	width: 100%;
+	height: 90px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #505050;
+	margin-top: 3px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+}
+
+.video-img-container {
+	float: left;
+	height: 90px;
+	width: 90px;
+	overflow: hidden;
+	border-radius: 19px;
+	-moz-box-shadow:    1px 1px 1.5px 2px #ccc;
+  -webkit-box-shadow: 1px 1px 1.5px 2px #ccc;
+  box-shadow:         1px 1px 1.5px 2px #ccc;
+	
+}
+
+.video-img {
+	height: 130%;
+	width: 130%;
+	margin: -15% 0 0 -15%;
+	border-radius: 0px;
+}
+
+.video-text {
+	color: #9B9B9B;
+	font-family: Arial;
+	font-size: 15px;
+	width: 100%;
+	white-space: nowrap;
+	vertical-align: middle;
+	height: 90px;
+	line-height: 90px;
+	text-indent: 20px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
